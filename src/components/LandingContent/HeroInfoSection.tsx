@@ -22,13 +22,11 @@ export default function HeroInfoSection() {
           </hgroup>
 
           {/* Benefits */}
-          <ul className="flex flex-col gap-[13px] items-start self-stretch relative w-full">
+          <ul className="flex flex-col gap-[9px] items-start self-stretch relative w-full">
             {benefits.map(text => (
               <li key={text} className="flex gap-2.5 items-center self-stretch relative w-full">
                 <span className="text-[22px] leading-[26px]">✨</span>
-                <p className="text-base leading-[22px]">
-                  <span className="text-white text-base font-semibold">{text}</span>
-                </p>
+                <p className="text-base leading-[22px] text-white font-semibold">{text}</p>
               </li>
             ))}
           </ul>
@@ -54,7 +52,7 @@ export default function HeroInfoSection() {
         </div>
 
         {/* Legal */}
-        <footer className="flex flex-col gap-3 justify-center items-center lg:items-start text-center lg:text-left self-stretch relative w-full">
+        <footer className="flex flex-col gap-2 justify-center items-center lg:items-start text-center lg:text-left self-stretch relative w-full">
           <small className="text-xs leading-[16px] text-gray-400 font-medium">
             By clicking &quot;Get Started&quot;, you agree with Terms and Conditions, Privacy Policy,
             Subscription Terms

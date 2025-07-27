@@ -3,12 +3,11 @@ import Image from 'next/image';
 export function PhoneMockup() {
   return (
     <div className="relative order-first lg:absolute lg:-right-[25px] xl:-right-[110px] lg:-z-[1] lg:-top-[35px]">
-      {/* Small screen */}
       <Image
         src="/Influe_mobile_mockup_3_1_sm.png"
         alt="App mobile mockup"
-        width={320}
-        height={693}
+        width={389}
+        height={427}
         className="max-w-full object-contain lg:hidden"
       />
 

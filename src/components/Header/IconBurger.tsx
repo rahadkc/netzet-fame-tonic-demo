@@ -1,4 +1,3 @@
-'use client';
 function IconBurger({ open }: { open: boolean }) {
   return (
     <svg viewBox="0 0 24 24" className="h-6 w-6 fill-current">
