@@ -1,5 +1,6 @@
 import Header from '@/components/Header';
 import HeroInfoSection from '@/components/HeroInfoSection';
+import { PhoneMockup } from '@/components/PhoneMockup';
 import PromoBanner from '@/components/PromoBanner';
 
 export default function Home() {
@@ -8,6 +9,7 @@ export default function Home() {
       <PromoBanner />
       <Header />
       <HeroInfoSection />
+      <PhoneMockup />
     </>
   );
 }
