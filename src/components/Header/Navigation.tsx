@@ -29,7 +29,7 @@ function Navigation() {
           onClick={toggle}
           aria-expanded={open}
           aria-label="Toggle navigation"
-          className="text-gray-300 focus:outline-none"
+          className="focus:outline-none"
         >
           <IconBurger open={open} />
         </button>
@@ -39,7 +39,7 @@ function Navigation() {
       {open && (
         <nav
           aria-label="Mobile navigation"
-          className="absolute left-4 right-4 top-full z-10 flex flex-col items-center gap-4 bg-dark-100 py-4 lg:hidden"
+          className="absolute left-4 right-4 top-full z-10 flex flex-col items-center gap-4  bg-black py-4 lg:hidden"
         >
           {navItems.map(({ label, href }) => (
             <Link

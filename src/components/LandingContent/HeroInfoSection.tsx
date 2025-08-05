@@ -8,15 +8,15 @@ const benefits = [
 
 export default function HeroInfoSection() {
   return (
-    <div className="flex flex-col gap-20 items-start flex-1 relative lg:w-[516px]">
+    <div className="flex px-5 sm:px-0 flex-col gap-20 items-start flex-1 relative lg:w-[516px] -top-[184px] lg:top-auto">
       <div className="flex flex-col gap-[30px] items-start self-stretch relative w-full">
         {/* Headline */}
         <div className="flex flex-col gap-4 items-start self-stretch relative w-full">
           <hgroup className="flex flex-col gap-0 items-start text-center lg:text-left self-stretch relative w-full">
-            <h1 className="text-[25px] lg:text-[35px] leading-[30px] lg:leading-[42px] text-white font-[var(--font-urbanist)] font-bold">
+            <h1 className="text-[25px] lg:text-[35px] leading-[30px] lg:leading-[42px] text-white font-[var(--font-urbanist)] font-extrabold sm:font-bold">
               Want to Turn Social Media Into a Profitable Career?
             </h1>
-            <h2 className="text-[25px] lg:text-[35px] leading-[30px] lg:leading-[42px] text-cyan-500 font-[var(--font-urbanist)] font-bold [text-shadow:0_4px_4px_#FC004E,0_0_10px_#FC004E66]">
+            <h2 className="text-[25px] lg:text-[35px] leading-[30px] lg:leading-[42px] text-cyan-500 font-[var(--font-urbanist)] font-extrabold sm:font-bold [text-shadow:0_4px_4px_#FC004E,0_0_10px_#FC004E66]">
               Discover your way to success with Fametonic:
             </h2>
           </hgroup>
